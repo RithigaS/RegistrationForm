@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+<link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="https://formspree.io/f/xdkkprkk"method="POST">
+        <fieldset>
+            <legend> Registration Form</legend>
+        <label>Name</label><br><br>
+        <input type="text" placeholder="Enter Your Name" name="Name"><br><br>
+        <label>Email</label><br><br>
+        <input type="email" placeholder="Enter Your Email"name="Email"><br><br>
+        <label>Password</label><br><br>
+        <input type="password" placeholder="Enter Your Password" required name="Password"><br><br>
+        <label>Age</label><br><br>
+        <input type="number" placeholder="Enter Your Age" name="Age"><br><br>
+        <label>Contact Number</label><br><br>
+        <input type="tel" placeholder="Enter Your Contact Number" name="Contact Number"><br><br>
+        <label>Date of Birth</label><br><br> <!--if u give date type then u can give all 3 date month and year-->
+        <input type="date" placeholder="Enter Your Date of Birth" name="Date of Birth"><br><br>
+        <label>Passed Out Year</label><br><br>
+        <input type="year" placeholder="Enter Your Passed Out Year" name="year"><br><br>
+        <label>Upload Your Image</label><br><br>
+        <input type="image" placeholder="Upload Your Image" name="Upload Your Image"><br><br>
+        <label>Gender</label><br><br><br><br>
+        <!-- here name="Gender" is given to select only onr option not all-->
+        <input type="radio" value="Male" name="Gender">Male<br><br>
+        <input type="radio" value="Female" name="Gender">Female<br><br>
+        <input type="radio" value="Others"name="Gender">others<br><br>
+        <label> Programming languages Known</label><br><br>
+        <input type="checkbox" value="Python" name="Programming languages Known">Python<br><br>
+        <input type="checkbox" value="Java" name="Programming languages Known">Java<br><br>
+        <input type="checkbox" value="C++" name="Programming languages Known">C++<br><br>
+        <label> Select ur fav color</label><br><br>
+        <input type="color" name="Select ur fav color"><br><br>
+        <label>provide your linked in profile link</label><br><br>
+        <input type="url" ><br><br>
+        <textarea>About</textarea><br><br>
+        <button>Submit</button>
+    </fieldset>  
+
+    </form>
+</body>
+</html>
